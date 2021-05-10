@@ -26,6 +26,9 @@ paypalURLLocation: https://staging.paypal.example.com
 databaseUser: staging-user
 databasePassword: staging-password
 
+ingress:
+  annotations: 
+    kubernetes.io/ingress.class: nginx-internal
 
 
 
