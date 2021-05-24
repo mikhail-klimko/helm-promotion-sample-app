@@ -3,4 +3,4 @@ steps:
   echo:
     image: alpine
     commands:
-      - echo master
+      - echo feature
